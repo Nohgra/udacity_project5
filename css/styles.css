@@ -1,0 +1,20 @@
+
+.panel_style{
+    font-size:14px;
+}
+
+.pad_zero{
+    padding:0px;
+}
+
+.locations {
+    padding: 2px 4px 4px 4px;
+}
+
+.map_error {
+    color: #ffffff;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
