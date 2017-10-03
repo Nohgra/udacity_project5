@@ -97,10 +97,10 @@ function application_view_model()
                 '<p>' + marker.response.venues[0].location.formattedAddress[0]  + '</p>' +
                 '<p>' + marker.response.venues[0].location.formattedAddress[1]  + '</p>';
 
-                if(marker.response.venues[0].location.formattedAddress[3] != null)
+                if(marker.response.venues[0].location.formattedAddress[3] !== undefined)
                     _content = _content + '<p>' + marker.response.venues[0].location.formattedAddress[3] + '</p>';
                 
-                if(marker.response.venues[0].location.formattedAddress[4] != null)
+                if(marker.response.venues[0].location.formattedAddress[4] !== undefined)
                     _content = _content +'<p>' + marker.response.venues[0].location.formattedAddress[4]  + '</p>';
 
                 _content = _content + '</div></div>';
