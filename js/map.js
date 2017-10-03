@@ -106,7 +106,9 @@ function application_view_model()
                 _content = _content + '</div></div>';
 
                 infowindow.setContent(curr_instance.info_window_title + _content);
-
+                
+            }).fail(function() {
+                alert("Unable to load Foursquare API. Please refresh your page to try again!");
             });
 
             this.info_window_title = '<div><h4>' + marker.title + '</h4>';
